@@ -8,3 +8,8 @@ tokenizers==0.19.1
 gradio==3.50.2
 pymupdf
 python-docx
+PyPDF2
+langdetect
+deep-translator
+matplotlib
+docx2txt
