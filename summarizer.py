@@ -35,6 +35,9 @@ def summarize_text(text, model_choice="bart", max_length=130, min_length=30):
         inputs["input_ids"],
         max_length=max_length,
         min_length=min_length,
-        do_sample=False
+        do_sample=True,
+        length_penalty=2.0,
+        num_beams=4,
+        early_stopping=True
     )
     return tokenizer.decode(summary_ids[0], skip_special_tokens=True)

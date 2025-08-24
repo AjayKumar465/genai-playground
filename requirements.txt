@@ -13,3 +13,8 @@ langdetect
 deep-translator
 matplotlib
 docx2txt
+langchain-community
+langchain-core
+pypdf
+sentence-transformers
+faiss-cpu
